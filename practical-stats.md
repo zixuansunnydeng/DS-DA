@@ -16,8 +16,18 @@ You should have now mastered what types of data in the world around us falls int
 
 
 
+## Variables and Notations
+- Capital letter represents the random variable
+- lowercase letter represent the observations of rv.
 
-# Measure Center
+
+# Quantitative variables
+- Center
+- Spread
+- Shape
+- Outliers
+
+## Measure Center
 
 Whether we use the mean or median to describe a dataset is largely dependent on the shape of our dataset and if there are any outliers.
 
@@ -40,5 +50,31 @@ Whether we use the mean or median to describe a dataset is largely dependent on 
   - 1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8, 9
   - There are two modes 3 and 6, because these values share the maximum frequencies at 3 times, while all other values only appear once. 
 3. Mean
+- Obvious
 
- 
+## Spread
+Measures of Spread are used to provide us an idea of how spread out our data are from one another. Common measures of spread include:
+
+Calculating the 5 Number Summary
+
+The five number summary consist of 5 values:
+
+    Minimum: The smallest number in the dataset.
+    Q1\bold{Q_1}Q1​: The value such that 25% of the data fall below.
+    Q2\bold{Q_2}Q2​: The value such that 50% of the data fall below. (Median)
+    Q3\bold{Q_3}Q3​: The value such that 75% of the data fall below.
+    Maximum: The largest value in the dataset.
+
+- Range
+  - The range is then calculated as the difference between the maximum and the minimum. 
+- Interquartile Range (IQR)
+  - The interquartile range is calculated as the difference between Q3\bold{Q_3}Q3
+- Standard Deviation
+- Variance
+
+
+## Shape
+
+
+
+## Outliers
