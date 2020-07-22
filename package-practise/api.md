@@ -1,4 +1,9 @@
+
+
+
 # RESTful API
+
+## Please be note, different API has different url format. You need to check official document. 
 
 You communicate with the database via groups and endpoints in the form of a **Uniform Resource Identifier (URI)** 
 

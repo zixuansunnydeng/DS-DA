@@ -200,3 +200,20 @@ END;   (optional --> END AS YOUR_CASE_VARIABLE)
 
     `Having` the always happen with `GROUP BY`, which means it will do any filter for the group. 
     `Where` is do filter before `GROUP BY`. 
+
+
+
+# Delete MySQL in Mac
+
+
+```
+1 sudo rm /usr/local/mysql
+2 sudo rm -rf /usr/local/mysql*
+3 sudo rm -rf /Library/StartupItems/MySQLCOM
+4 sudo rm -rf /Library/PreferencePanes/My*
+5 vim /etc/hostconfig  (and removed the line MYSQLCOM=-YES-)
+6 rm -rf ~/Library/PreferencePanes/My*
+7 sudo rm -rf /Library/Receipts/mysql*
+8 sudo rm -rf /Library/Receipts/MySQL*
+9 sudo rm -rf /var/db/receipts/com.mysql.*
+```
