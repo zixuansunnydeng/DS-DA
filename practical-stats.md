@@ -53,6 +53,7 @@ Whether we use the mean or median to describe a dataset is largely dependent on 
 - Obvious
 
 ## Spread
+---
 Measures of Spread are used to provide us an idea of how spread out our data are from one another. Common measures of spread include:
 
 Calculating the 5 Number Summary
@@ -74,7 +75,59 @@ The five number summary consist of 5 values:
 
 
 ## Shape
+---
+We learned how to build a histogram in this video, as this is the most popular visual for quantitative data.
 
-
+1. Right-skewed
+- Mean greater than Median
+- Amount of drug remaining in a blood stream, Time between phone calls at a call center, Time until light bulb dies
+2. Left-skewed
+- Mean less than Median
+- Grades as a percentage in many universities, Age of death, Asset price changes
+3. Symmetric (frequently normally distributed)
+- Mean equals Median
+- Height, Weight, Errors, Precipitation
 
 ## Outliers
+---
+When outliers are present we should consider the following points.
+
+1. Noting they exist and the impact on summary statistics.
+
+2. If typo - remove or fix
+
+3. Understanding why they exist, and the impact on questions we are trying to answer about our data.
+
+4. Reporting the 5 number summary values is often a better indication than measures like the mean and standard deviation when we have outliers.
+
+5. Be careful in reporting. Know how to ask the right questions.
+
+## Descriptive vs. Inferential Statistics
+---
+- Descriptive Statistics
+  - Descriptive statistics is about describing our collected data using the measures discussed throughout this lesson: measures of center, measures of spread, shape of our distribution, and outliers. We can also use plots of our data to gain a better understanding.
+- Inferential Statistics
+  - Inferential Statistics is about using our collected data to draw conclusions to a larger population. 
+  - Performing inferential statistics well requires that we take a sample that accurately represents our population of interest. A common way to collect data is via a survey. However, surveys may be extremely biased depending on the types of questions that are asked, and the way the questions are asked. This is a topic you should think about when tackling the first project.
+  -  5 elements:
+       1. Population - our entire group of interest.
+       2. Parameter - numeric summary about a population
+       3. Sample - subset of the population
+       4. Statistic - numeric summary about a sample
+
+## Simpson's Paradox
+Be careful of the data you used. Sometimes, you may even get an opposite conclusion. 
+
+
+# Probability
+
+
+## Binomial Distribution
+${\displaystyle f(k,n,p)=\Pr(k;n,p)=\Pr(X=k)={\binom {n}{k}}p^{k}(1-p)^{n-k}}$
+for k = 0, 1, 2, ..., n, where
+${\displaystyle {\binom {n}{k}}={\frac {n!}{k!(n-k)!}}}{\displaystyle {\binom {n}{k}}={\frac {n!}{k!(n-k)!}}}$
+
+
+## Bayes Theorem
+
+Proior Probability +(*) test --> Posterior probability
